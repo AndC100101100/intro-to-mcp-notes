@@ -15,5 +15,6 @@ We will create a sample app that:
 graph TD;
 A[APP] --> B[get_reppos]  
 A[APP] --> C[get_pull_requests]
-B --> E[GitHub API] C --> E[GitHub API]
+B --> E[GitHub API]
+C --> E[GitHub API]
 ```
