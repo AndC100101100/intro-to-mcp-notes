@@ -9,11 +9,12 @@ One of the main pain points is having to interact with several tools, tools that
 
 MCP servers give us access to a set of tools that exposes functionality to an outside service. They are different to calling API services in that MCPs provide tool schemas and fucntions already defined. Calling an API means authoring those tool definitions ourselves.
 
-We will create a sample app that:
+We could have a sample app that for example has the following flow:
 
 ```mermaid
 graph TD;
 A[APP] --> B[get_reppos]  
 A[APP] --> C[get_pull_requests]
-B --> E[GitHub API] C --> E[GitHub API]
+B --> E[GitHub API]
+C --> E[GitHub API]
 ```
