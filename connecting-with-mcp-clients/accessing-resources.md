@@ -1,0 +1,1 @@
+Resources in MCP allow your server to expose information that can be directly included in prompts, rather than requiring tool calls to access data, making for a more efficient way to provide context to AI models.
