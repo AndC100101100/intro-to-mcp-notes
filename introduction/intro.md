@@ -24,3 +24,8 @@ C --> E[GitHub API]
 ```
 In the example of this app, the addition of an MCP server would be great. Instead of authoring all the github tools we need, and MCP server for GitHub would habdle it.
 In this case the MCP server would wrap tons of functionality around GitHub and expose it as a standarized set of tools.
+
+## Explaining MCP Servers
+MCP servers provide access to data or functionality implemented by outsider services, and will act as an interface that exposes tools prompts and resources in a standard way.
+
+MCPs are not the same as tool use, MCP servers and tool use are complementary but different concepts. MCP servers provide tool schemas and functions already defined for you, while tool use is about how Claude actually calls those tools. The key difference is who does the work - with MCP, someone else has already implemented the tools for you.
